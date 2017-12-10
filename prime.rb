@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(integer)
   x = 2
-  if integer >= 2
+  if integer >= 2 || integer != 0
     until x > integer
       if ((integer % x) == 0) && ((integer / x) > 1)
        return false
