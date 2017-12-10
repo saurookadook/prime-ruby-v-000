@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(integer)
-  x = 1
+  x = 2
   until x > integer
     if ((integer % x) == 0) && ((integer / x) > 1)
      return false
